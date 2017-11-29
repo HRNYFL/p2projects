@@ -1,3 +1,45 @@
-h1 {
-    color: red;
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color: #3d414a;
+    background-color: #ffffff;
 }
+ 
+.jumbotron {
+    background-image: url('../img/winternyc_01.jpg');
+    background-size: cover;
+    color: white;
+    height: 400px;
+    padding-top: 100px;
+}
+
+#dragMe {
+    width: 200px;
+    height: 200px;
+    background: #00f;
+}
+
+#dropHere {
+    width: 400px;
+    height: 400px;
+    background: #f00;
+}
+
+/*.dropped {
+    background: #0f0;
+    font-weight: 900;*/
+}
+
+/*.jumbotron {
+background-image: url('../img/winternyc.jpg');
+
+height: 100%;
+width: 100%;
+background-size: cover;
+}
+
+.jumbotron .container {
+position: relative;
+top:100px;
+}*/
+
