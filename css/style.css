@@ -2,16 +2,26 @@ body {
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
     color: #3d414a;
-    background-color: #ffffff;
+    background-color: #fff;
 }
  
 .jumbotron {
     background-image: url('../img/winternyc_01.jpg');
     background-size: cover;
     color: white;
-    height: 400px;
+    height: 350px;
     padding-top: 100px;
 }
+
+/*.row {
+    align-content: center;
+}*/
+    
+.social-likes {
+    display: flex;
+}
+
+
 
 #dragMe {
     width: 200px;
@@ -23,6 +33,7 @@ body {
     width: 400px;
     height: 400px;
     background: #f00;
+    padding-top: 300px;
 }
 
 /*.dropped {
